@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Carebox</title>
+        <title>GamerLink</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"

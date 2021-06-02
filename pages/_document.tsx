@@ -34,7 +34,7 @@ class MyDocument extends Document {
 
           <link
             rel="preload"
-            href="/fonts/BebasNeue Bold.otf"
+            href="/fonts/BebasNeue-Bold.otf"
             as="font"
             crossOrigin=""
           />
