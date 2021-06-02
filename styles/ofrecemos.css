@@ -1,0 +1,68 @@
+.ofrecemos-container{
+    padding-top: 32px; 
+    height: 100vh;
+    width: 100%;
+    background: url('/ofrecemos.png');
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.ofrecemos-container  h2{
+    text-align: center;
+    color: #fff;
+}
+
+.ofrecemos-container .card-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.ofrecemos-container .card-container .card{
+    margin: 0 48px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 48px 32px;
+    width: 460px;
+    height: 600px;
+    
+}
+
+.ofrecemos-container .card-container .card .title,.ofrecemos-container .card-container .card .description {
+    color: #fff;
+}
+.ofrecemos-container .card-container .card .title{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.ofrecemos-container .card-container .card .description {
+    font-size: 20px;
+    margin-top: 8px;
+    width: 90%;
+    line-height: 1.5;
+}
+
+
+
+.ofrecemos-container .card-container .card.aprendizaje {
+    background: linear-gradient(0deg, rgba(6,9,37,.50), rgba(6,9,37,.50)) , url('/plataforma-aprendizaje.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ofrecemos-container .card-container .card.coach{
+    background: linear-gradient(0deg, rgba(6,9,37,.50), rgba(6,9,37,.50)),  url('/coach.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+

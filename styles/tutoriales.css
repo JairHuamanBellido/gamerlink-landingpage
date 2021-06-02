@@ -1,0 +1,63 @@
+.tutoriales-container{
+    width: 100%;
+    padding: 0 200px 128px 200px;
+}
+
+.tutoriales-container h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.tutoriales-container .line {
+    width: 90px;
+    height: 4px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    background: #DE5CF3;
+    box-shadow: 0 0 10px 0 #DE5CF3;
+    margin: 16px 0 32px 0;
+}
+
+.tutoriales-container > p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.tutoriales-container .levels {
+    margin-top: 128px;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.tutoriales-container .levels .level .title {
+    display: flex;
+    align-items: center;
+}
+.tutoriales-container .levels .level .title p {
+    margin-left: 16px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.tutoriales-container .levels .basic-level .title p{
+    color: #00fff0;
+}
+.tutoriales-container .levels .intermediate-level .title p {
+    color: #FF18F6;
+}
+.tutoriales-container .levels .high-level .title p {
+    color: #FFB800;
+}
+.tutoriales-container .levels .silabus {
+    color: #fff;
+    margin-top: 18px;
+}
+
+.tutoriales-container .levels .silabus p {
+    opacity: 0.8;
+    margin-bottom: 18px;
+    margin-left: 48px;
+}

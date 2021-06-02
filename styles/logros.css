@@ -1,0 +1,35 @@
+.logros-container{
+    width: 100%;
+    padding: 0 200px 64px 200px;
+}
+
+.logros-container h2 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.logros-container .line {
+    width: 90px;
+    height: 4px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    background: #FFB800;
+    box-shadow: 0 0 10px 0 #FFB800;
+    margin: 16px 0 32px 0;
+}
+.logros-container p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.logros-container .image {
+    width: 80%;
+    margin: 160px auto;
+    position: relative
+}
+.logros-container .image  img {
+    width: 100%;
+}
