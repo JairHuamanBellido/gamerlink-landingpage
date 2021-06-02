@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 export const Tutoriales: React.FC = () => {
   return (
     <div className="tutoriales-container">
@@ -12,7 +11,7 @@ export const Tutoriales: React.FC = () => {
       <div className="levels">
         <div className="level basic-level">
           <div className="title">
-            <Image src="/basic-level.png" width={32} height={32} />
+            <img src="/basic-level.png" width={32} height={32} />
             <p>Nivel Basico</p>
           </div>
           <div className="silabus">
@@ -24,7 +23,7 @@ export const Tutoriales: React.FC = () => {
         </div>
         <div className="level intermediate-level">
           <div className="title">
-            <Image src="/intermediate-level.png" width={32} height={32} />
+            <img src="/intermediate-level.png" width={32} height={32} />
             <p>Nivel Intermedio</p>
           </div>
           <div className="silabus">
@@ -36,7 +35,7 @@ export const Tutoriales: React.FC = () => {
         </div>
         <div className="level high-level">
           <div className="title">
-            <Image src="/high-level.png" width={32} height={32} />
+            <img src="/high-level.png" width={32} height={32} />
             <p>Nivel Avanzado</p>
           </div>
           <div className="silabus">
