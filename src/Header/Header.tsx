@@ -7,16 +7,16 @@ export const Header:React.FC = () => {
             <div>
                 <ul>
                     <li>
-                        <a href="">Inicio</a>
+                        <a href="#panel">Inicio</a>
                     </li>
                     <li>
-                        <a href="">¿Que ofrecemos?</a>
+                        <a href="#ofrecemos">¿Que ofrecemos?</a>
                     </li>
                     <li>
-                        <a href="">Videos Tutoriales</a>
+                        <a href="#tutoriales">Videos Tutoriales</a>
                     </li>
                     <li>
-                        <a href="">Logros</a>
+                        <a href="#logros">Logros</a>
                     </li>
                 </ul>
             </div>

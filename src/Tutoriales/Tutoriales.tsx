@@ -1,7 +1,7 @@
 import React from "react";
 export const Tutoriales: React.FC = () => {
   return (
-    <div className="tutoriales-container">
+    <div id="tutoriales" className="tutoriales-container">
       <h2>VIDEO TUTORIALES</h2>
       <div className="line"></div>
       <p>

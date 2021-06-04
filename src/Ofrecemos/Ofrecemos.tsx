@@ -2,7 +2,7 @@ import React from "react";
 
 export const Ofrecemos: React.FC = () => {
   return (
-    <div className="ofrecemos-container">
+    <div id="ofrecemos" className="ofrecemos-container">
       <h2>QUE OFRECEMOS</h2>
 
       <div className="card-container">

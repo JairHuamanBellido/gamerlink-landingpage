@@ -1,79 +1,98 @@
-.contacto-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 64px;
-    justify-content: center;
+.contacto-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 64px;
+  justify-content: center;
 }
 
 .contacto-container h2 {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 600;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .contacto-container p {
-    color: #fff;
-    opacity: 0.80;
+  color: #fff;
+  opacity: 0.8;
 }
 
-.contacto-container form .inputs-container{
-    display: flex;
-    align-items: center;
-    margin-top: 32px;
+.contacto-container .suscribe-title {
+  color: #00fff0;
+  font-size: 32px;
+  animation: neon 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  -webkit-animation: neon 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
-.contacto-container form .inputs-container .field{
-    display: flex;
-    flex-direction: column;
-    margin: 0 24px;
+
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 20px #00fff000;
+  }
+  75% {
+    text-shadow: 0 0 20px #00fff0;
+  }
+  100% {
+    text-shadow: 0 0 20px #00fff000;
+  }
+}
+
+.contacto-container form .inputs-container {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+.contacto-container form .inputs-container .field {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
 }
 .contacto-container form .inputs-container .field label {
-    font-size: 14px;
-    color: #fff;
-    opacity: 0.5;
-    margin-bottom: 4px;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+  margin-bottom: 4px;
 }
 
 .contacto-container form .inputs-container .field input {
-    padding: 12px;
-    width: 360px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    color: #fff;
-    background: #0E1024;
-    font-weight: 300;
-    transition: all .2s ease;
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    -ms-transition: all .2s ease;
-    -o-transition: all .2s ease;
+  padding: 12px;
+  width: 360px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: #fff;
+  background: #1d2043;
+  font-weight: 300;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
-.contacto-container form .inputs-container .field input:focus{
-    outline: none;
-    border: 1px solid #3946d4;    
-}
-
-.contacto-container form .button{
-    width: 100%;
-    margin-top: 32px;
-    display: flex;
-    justify-content: center;
+.contacto-container form .inputs-container .field input:focus {
+  outline: none;
+  border: 1px solid #3946d4;
 }
 
-.contacto-container form .button  button{
-    border: none;
-    background:  #0A47FF;
-    color: #fff;
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -ms-border-radius:4px;
-    -o-border-radius:4px;
-    -webkit-border-radius:4px;
-    padding: 16px 48px;
-    cursor: pointer;
+.contacto-container form .button {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.contacto-container form .button button {
+  border: none;
+  background: #0a47ff;
+  color: #fff;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 16px 48px;
+  cursor: pointer;
 }

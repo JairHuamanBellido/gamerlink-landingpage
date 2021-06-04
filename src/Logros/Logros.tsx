@@ -1,7 +1,7 @@
 import React from "react";
 export const Logros: React.FC = () => {
   return (
-    <div className="logros-container">
+    <div id="logros" className="logros-container">
       <h2>COMPARTE TUS LOGROS</h2>
       <div className="line"></div>
       <p>

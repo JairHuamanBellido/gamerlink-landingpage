@@ -16,12 +16,18 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @import url("./header.css");
 @import url("./panel.css");
 @import url("./ofrecemos.css");
 @import url("./tutoriales.css");
 @import url("./logros.css");
 @import url("./contacto.css");
+@import url("./spinner.css");
+
 .gradient-container{
   width: 100%;
   background: linear-gradient(180deg,rgba(6, 9, 37,1) ,rgba(6, 9, 37,.8) ), url('/game.png');
